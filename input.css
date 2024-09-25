@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply font-Hind max-w-[1920px] bg-slate-950 text-green-950 text-sm;
+}
+
+.nav-link {
+    @apply font-bold text-xl duration-300
+}
+
+.nav-link:hover,
+.active {
+    @apply text-green-600
+}
+
+.nav__icons__mobil li:hover a {
+    @apply text-green-600
+}
+
+.nav__icons__mobil li:hover  {
+    @apply border-green-600
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" 
+  integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <header id="navbar" class="text-black lg:text-white">
+    <nav class="max-w-[1920px]">
+      <div id="sticky" class="fixed w-full top-0 left-0 z-50 lg:top-[-100%]
+      duration-500">
+        <div class="flex items-center justify-between h-24 px-5
+        md:px-10 lg:max-w-4xl lg:mx-auto">
+          <div class="flex-1 lg:hidden"></div>
+
+          <div class="flex-1 grid place-items-center lg:place-items-start">
+              <img src="assets/images/logo.png" alt="logo" class="w-20">
+          </div>
+
+          <div id="nav-menu" class="absolute top-0 right-[-100%] max-h-[70vh]
+          w-full px-5 bg-white flex flex-col gap-5 duration-500
+          ease-out overflow-hidden md:px-10 lg:static lg:min-h-fit
+          lg:bg-transparent lg:w-auto">
+            <div class="flex items-center justify-between h-24 lg:hidden">
+              <img src="assets/images/logo_2.png" alt="logo" class="w-20">
+
+                <div id="closeicon" class="text-3xl cursor-pointer">
+                  <i class="ri-close-large-line"></i>
+              </div>
+            </div>
+
+            <ul class="flex flex-col items-start gap-5 lg:flex-row">
+              <li> <a href="#home" class="nav-link active">Kezdőlap</a></li>
+              <li> <a href="#about" class="nav-link">Rólunk</a></li>
+              <li> <a href="#fragrance" class="nav-link">Illatok</a></li>
+              <li> <a href="#quaity" class="nav-link">Minőség</a></li>
+              <li> <a href="#products" class="nav-link">Termékek</a></li>
+          </ul>
+
+            <div class="flex items-center py-10 lg:hidden">
+             <p class="font-bold pe-2">Kövess minket -</p>
+              <ul class="nav__icons__mobil flex space-x-4">
+                  <li class="border-2 border-black h-8 w-8
+                  rounded-full grid place-items-center">
+                      <a href="#">
+                          <i class="ri-twitter-x-line"></i>
+                      </a>
+                  </li>
+                  <li class="border-2 border-black h-8 w-8
+                  rounded-full grid place-items-center">
+                      <a href="#">
+                          <i class="ri-facebook-box-fill"></i>
+                      </a>
+                  </li>
+                  <li class="border-2 border-black h-8 w-8
+                  rounded-full grid place-items-center">
+                      <a href="#">
+                          <i class="ri-instagram-line"></i>
+                      </a>
+                  </li>
+                  <li class="border-2 border-black h-8 w-8
+                  rounded-full grid place-items-center">
+                      <a href="#">
+                          <i class="ri-youtube-fill"></i>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="absolute bottom-16 -right-5 -rotate-[30deg]
+          opacity-20 pointer-events-none lg:hidden">
+            <img src="assets/images/coffee_leaf.png" alt="kávélevél" class="w-72">
+          </div>
+         </div>
+
+        <div class="text-white text-3xl cursor-pointer flex-1 text-right lg:hidden">
+          <i id="hamburger" class="ri-menu-3-line"></i>
+        </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="bg-red-900 h-screen">section</section>
+    <section class="bg-blue-900 h-screen">section2</section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
