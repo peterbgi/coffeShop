@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-    @apply font-Hind max-w-[1920px] bg-slate-950 text-green-950 text-sm;
+    @apply font-Hind max-w-[1920px] bg-slate-950 text-green-950 text-sm lg:text-base;
 }
 
 .nav-link {
@@ -18,9 +18,19 @@ body {
 }
 
 .nav__icons__mobil li:hover a {
-    @apply text-green-600
+    @apply text-green-600 duration-500
 }
 
 .nav__icons__mobil li:hover  {
-    @apply border-green-600
+    @apply border-green-600 duration-500
 }
+
+.nav__icons li:hover a {
+    @apply text-white duration-500
+}
+
+.nav__icons li:hover  {
+    @apply border-white duration-500
+}
+
+

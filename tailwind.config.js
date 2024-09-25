@@ -5,6 +5,14 @@ module.exports = {
     extend: {},
     fontFamily: {
       Hind: ["Hind Vadodara", "system-ui"]
+    },
+    container: {
+      center: true
+    },
+    margin: {
+      DEFAULT: {
+        
+      }
     }
   },
   plugins: [],
