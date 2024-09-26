@@ -9,10 +9,11 @@ module.exports = {
     container: {
       center: true
     },
-    margin: {
-      DEFAULT: {
+    padding: {
+      DEFAULT: "1rem",
+      md: "2rem"
         
-      }
+      
     }
   },
   plugins: [],

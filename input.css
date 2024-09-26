@@ -5,8 +5,25 @@
 @tailwind utilities;
 
 body {
-    @apply font-Hind max-w-[1920px] bg-slate-950 text-green-950 text-sm lg:text-base;
+    @apply font-Hind max-w-[1920px] bg-white text-green-950 text-sm lg:text-base;
 }
+
+h1 {
+    @apply text-white text-5xl font-bold md:text-7xl lg:text-[80px] xl:text-[100px];
+}
+
+h2 {
+    @apply text-3xl font-bold md:text-5xl;
+}
+
+h3 {
+    @apply text-3xl font-bold; 
+}
+
+h4 {
+    @apply text-base font-bold sm:text-lg;
+}
+
 
 .nav-link {
     @apply font-bold text-xl duration-300
