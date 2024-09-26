@@ -30,3 +30,32 @@ const scrollHeader = () => {
 };
 
 window.addEventListener("scroll", scrollHeader)
+
+
+const activeLink = () => {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    let current = "home";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+
+        if(this.scrollY >= sectionTop - 60)
+            {
+                current = section.getAttribute("id");
+            }
+    });
+
+    navLinks.forEach(x => {
+        x.classList.remove("active")
+
+        if (x.href.includes(current)) {
+            x.classList.add("active")
+        }
+    })
+
+  
+}
+
+window.addEventListener("scroll", activeLink);
